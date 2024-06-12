@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ObjectGrowth 1: MonoBehaviour
+public class ObjectGrowth : MonoBehaviour
 {
     [SerializeField] private float _growSpeed = 0.09f;
 
