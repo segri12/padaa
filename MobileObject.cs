@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MobileObject 22 : MonoBehaviour
+public class MobileObject : MonoBehaviour
 {
     [SerializeField] private float _speed = 1.0f;
     [SerializeField] private float _rotationSpeed = 50.0f;
