@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Mover : MonoBehaviour
+public class MovementController : MonoBehaviour
 {
     [SerializeField] private float _speed = 1.0f;
 
@@ -8,4 +8,4 @@ public class Mover : MonoBehaviour
     {
         transform.position += transform.forward * _speed * Time.deltaTime;
     }
-}
+}   

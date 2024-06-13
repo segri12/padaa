@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SpinningObject : MonoBehaviour
+public class RotationController : MonoBehaviour
 {
     [SerializeField] private float _rotationSpeed = 50.0f;
 
